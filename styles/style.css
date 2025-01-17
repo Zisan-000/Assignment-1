@@ -38,16 +38,45 @@ header nav{
     background-color: #C6E4D6;
     border-radius: 24px;
     margin-top: 20px;
-
 }
 header section{
     display: flex;
     align-items: center;
 }
-.pic-right{
-    margin: 80px 60px 80px 64px;
+
+.title{
+    font-size: 24px;
+    font-weight: 350;
+    color: rgba(14, 14, 14, 50);
+    margin-bottom: 16px;
+}
+.sub-title{
+    margin-top: 16px;
+    font-size: 56px;
+    font-weight: bold;
+}
+.btn{
+    background-color: #F1F1F3;
+    padding: 17px 34px;
+    color: #006A50;
+    border: none;
+    border-radius: 8px;
+
+}
+
+.btn:hover{
+    background-color: #006A50;
+    color: white;
+    transition: 0.4s;
+    font-size: 20px;
 }
 
 .text-left{
-    
+    margin: 117px 64px 117px 60px;
+}
+
+.pic-right{
+    height: 400px;
+    width: 474px;
+    margin-right: 100px;
 }
