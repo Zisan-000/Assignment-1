@@ -5,13 +5,14 @@
 }
 body{
     background-color: #F1F1F3;
+    margin: 24px 160px;
 }
 /* header style */
 
 .navbar{
     display: flex;
     justify-content: space-between;
-    margin: 24px 160px;   
+
 }
 .nav-font{
     font-size: 32px;
@@ -30,4 +31,23 @@ body{
 header nav{
     display: flex;
     align-items: center;
+}
+.idea{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    margin-top: 20px;
+
+}
+header section{
+    display: flex;
+    align-items: center;
+}
+.pic-right{
+    margin: 80px 60px 80px 64px;
+}
+
+.text-left{
+    
 }
