@@ -62,13 +62,14 @@ header section{
     color: #0E0E0E;
 }
 .btn{
-    background-color: #F1F1F3;
+    background-color: #a3d899;
     padding: 17px 34px;
     color: #006A50;
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    font-family: "Fira Sans"
+    font-family: "Fira Sans";
+    font-size: 18px;
 
 
 }
@@ -264,4 +265,35 @@ tbody tr td{
     font-weight: bold;
     font-size: 17px;
     border-radius: 4px;
+}
+
+.inside{
+    background-color: white;
+    padding: 48px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 32px;
+    margin: 24px 0px;
+}
+.satelite{
+    border-radius: 24px;
+}
+.text-part>h1{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.alj{
+    margin-bottom: 12px;
+}
+.date-time{
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+    color: rgba(14, 14, 14, 70%);
+}
+.not{
+    color: rgba(14, 14, 14, 70%);
+    margin-bottom: 32px;
 }
