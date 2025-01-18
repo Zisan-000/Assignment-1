@@ -5,13 +5,16 @@
 }
 body{
     background-color: #F1F1F3;
-    margin: 24px 160px;
+    /* margin: 24px 160px; */
+    max-width: 1280px;
+    margin: 0 auto;
 }
 /* header style */
 
 .navbar{
     display: flex;
     justify-content: space-between;
+    margin-top: 24px ;
 
 }
 .nav-font{
@@ -27,6 +30,8 @@ body{
     font-size: 18px;
     font-weight: bold;   
     border-radius: 8px;
+    cursor: pointer;
+    
 }
 header nav{
     display: flex;
@@ -47,13 +52,14 @@ header section{
 .title{
     font-size: 24px;
     font-weight: 350;
-    color: rgba(14, 14, 14, 50);
+    color: rgba(14, 14, 14, 50%);
     margin-bottom: 16px;
 }
 .sub-title{
     margin-top: 16px;
     font-size: 56px;
     font-weight: bold;
+    color: #0E0E0E;
 }
 .btn{
     background-color: #F1F1F3;
@@ -61,6 +67,9 @@ header section{
     color: #006A50;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
+    font-family: "Fira Sans"
+
 
 }
 
@@ -79,4 +88,122 @@ header section{
     height: 400px;
     width: 474px;
     margin-right: 100px;
+}
+
+/* main section */
+
+.pillar-des{
+    margin: 80px 0px;
+}
+.heading{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+
+}
+.pillars{
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 24px;
+    margin-top: 32px;
+}
+.pillar{
+    background-color: white;
+    padding: 24px;
+    border-radius: 16px;
+}
+.text{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 80%);
+
+}
+.sub-text{
+    color: rgba(14, 14, 14, 70%);
+    font-size: 17px;
+}
+.vision{
+    background-color: white;
+    padding: 32px;
+    border-radius: 16px;
+
+}
+.vc1{
+    background-color: rgba(84, 144, 245, 20%)
+}
+.vc2{
+    background-color: #C6E4D6;
+}
+.vc3{
+    background-color: #F7EBCF;
+}
+
+
+.visions{
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
+    
+}
+
+.text-box{
+    padding: 24px 0px;
+ 
+}
+
+.vision-des{
+    margin-bottom: 80px;
+}
+.btn1{
+    background-color: #5490F5;
+    padding: 17px 34px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: "Fira Sans"
+}
+.btn2{
+    background-color: #09A15C;
+    padding: 17px 34px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: "Fira Sans"
+}
+.btn3{
+    background-color: #FFC239;
+    padding: 17px 34px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: "Fira Sans"
+}
+
+.vheading{   
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom: 32px;   
+}
+.dr{
+    padding: 48px 24px;
+    margin-top: 32px;
+    background-color: white;
+    border-radius: 16px;
+    background-image: url("/assets/quote-bg.png");
+    background-position: 25px 24px;
+    background-repeat: no-repeat;   
+}
+.name{
+    margin-bottom: 4px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.position{
+    margin-top: 4px;
+    margin-bottom: 0px;
+    color: rgba(14, 14, 14, 60%);
 }
