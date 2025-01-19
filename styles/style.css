@@ -32,7 +32,10 @@ header,main{
     font-weight: bold;   
     border-radius: 8px;
     cursor: pointer;
-    
+}
+.nav-btn:hover{
+    background-color: #a3d899;
+    transition: 0.3s;
 }
 header nav{
     display: flex;
@@ -71,8 +74,6 @@ header section{
     cursor: pointer;
     font-family: "Fira Sans";
     font-size: 18px;
-
-
 }
 
 .btn:hover{
@@ -81,6 +82,7 @@ header section{
     transition: 0.4s;
     font-size: 20px;
 }
+
 
 .text-left{
     margin: 117px 64px 117px 60px;
@@ -170,6 +172,18 @@ header section{
     cursor: pointer;
     font-family: "Fira Sans"
 }
+
+.btn1:hover{
+    background-color: #2d72e9;
+}
+
+.btn2:hover{
+    background-color: #006A50;
+}
+
+.btn3:hover{
+    background-color: #e3a410;
+}
 .btn2{
     background-color: #09A15C;
     padding: 17px 34px;
@@ -208,6 +222,12 @@ header section{
     margin-bottom: 4px;
     font-weight: 600;
     font-size: 20px;
+}
+.name1{
+    margin-bottom: 4px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 50px;
 }
 .position{
     margin-top: 4px;
